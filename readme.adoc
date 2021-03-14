@@ -4,33 +4,41 @@ v2.1b, 03/14/2021: Doco Type
 :Author: John HR Schuster
 :Company: GeekMustHave
 :toc: left
-:toclevels: 4:
-:title-page:
+:toclevels: 4
+:title-page: gen-doco
 :title-logo-image: ./images/create-doco_gmh-blogArticle-cover.png
 :imagesdir: ./images
 :pagenums:
 :numbered: 
 :chapter-label: 
 :experimental:
-:source-hightlighter: coderay
+:source-hightlighter: highlight.js
+:highlightjs-languages: javascript, powershell
 :icons: font
 :docdir: ./documents
-:github: https://github.com/GeekMustHave/GitHub repositoryName
-:web-ste: https://OpenStuff.pwc-lms.com/doco/folder name
+:github: https://github.com/GeekMustHave/instructions
+:web-ste: https://OpenStuff/pwc-lms/com/doco/instructions
 :linkattrs:
-:seclinks:
+:seclinks: asciidoctor readme.adoc
 :description: Metatag description \
 more description
 :author: John HR Schuster
 :keywords: GeekMustHave, keyword2, keyword3
 :email: GeekMustHave@PhoenixWorkgroup.com
+:hugo: true
+:page-title: Instruction for My Gear
+:page-image: ./images/create-doco_gmh-blogArticle-cover.png
+:page-tags: instructions, GMH
+:page-Date: 03/14/2021
 
 Preamble paragraph goes here
 
 == Introduction
 
+There is so much gear that I use that I often forget how to use it and or can't find the instructions.
+This feeble attempt is to put instructions for just the gear I use in one place.
 
-
+To download a PDF version of this document use this link:./readme.pdf[link]
 
 
 <<<<
