@@ -4,6 +4,7 @@
     "username": "OpenStuff",
     "password": "MyStuff2TheWorld716$$",
     "port": 21,
+    "remotePath": "doco/myInstructions",
     "secure": false,
     "protocol": "ftp",
     "uploadOnSave": false,
