@@ -1,8 +1,8 @@
 {
     "remotePath": "./",
     "host": "ftp.pwc-lms.com",
-    "username": "openstuff@pwclms.com",
-    "password": "MyContribution2TheWorld716!!",
+    "username": "OpenStuff",
+    "password": "MyStuff2TheWorld716$$",
     "port": 21,
     "secure": false,
     "protocol": "ftp",
@@ -16,7 +16,9 @@
     "ignore": [
         "\\.vscode",
         "\\.git",
-        "\\.DS_Store"
+        "\\.DS_Store",
+        "\\*.json",
+        "\\.gitignore"
     ],
     "generatedFiles": {
         "extensionsToInclude": [
