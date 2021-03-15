@@ -66,6 +66,12 @@ When you see the `Power on` message, release the button
 
 There are two modes `Analog` and `Digital`, use the F3 button `Middle white button` to change.
 
+.F2 Amalog/Digit
+image::anysecu_f2.png[F2 Amalog/Digital, alt='Alt Tag', align='center']
+ 
+
+
+
 Meter will turn off after a few minutes of inactivity, this is normal.
 
 Manually turn it off, press `Menu` black button, 
