@@ -456,7 +456,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#_introduction">1. Introduction</a></li>
-<li><a href="#_document_history">2. Document History</a></li>
+<li><a href="#_anysecu_sf_401_plus">2. ANYSECU SF-401 Plus</a>
+<ul class="sectlevel2">
+<li><a href="#_turn_unit_on">2.1. Turn unit on</a></li>
+</ul>
+</li>
+<li><a href="#_what_is_switch_on_top">3. What is switch on top</a></li>
+<li><a href="#_operation">4. Operation</a></li>
+<li><a href="#_references">5. References</a></li>
+<li><a href="#_document_history">6. Document History</a></li>
 </ul>
 </div>
 </div>
@@ -478,14 +486,122 @@ This feeble attempt is to put instructions for just the gear I use in one place.
 <div class="paragraph">
 <p>To download a PDF version of this document use this <a href="./readme.pdf">link</a></p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anysecu_sf_401_plus">2. ANYSECU SF-401 Plus</h2>
+<div class="sectionbody">
+<div class="imageblock text-center">
+<div class="content">
+<img src="./images/anysecu_SF-401_Plus.png" alt="Freq counter">
+</div>
+<div class="title">Figure 1. Surecomm ANYSECY SF-401 Plus</div>
+</div>
 <div class="paragraph">
-<p>poop</p>
+<p>The manual can be viewed at this link::./documents/SureCom_Anysecu_SF-401Plus_FrequencyCounter_210314.pdf[Link]</p>
+</div>
+<div class="paragraph">
+<p>This is a frequency counter and <a href="#CTCSS">[CTCSS]</a> meter.
+Used to determine the frequency and <a href="#CTCSS">[CTCSS]</a> code of a nearby transmitting device.</p>
+</div>
+<div class="paragraph">
+<p><a href="#CTCSS">[CTCSS]</a> tones range from 67 to 257 Hz. The tones are usually referred to as sub-audible tones.
+These tones allow a single frequency to be shared by multiple groups without them hearing the other groups conversations.
+The two groups can still interfere with each other without knowing it.</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="./images/anysec_tonechart.png" alt="Alt Tag">
+</div>
+<div class="title">Figure 2. Tone and Channel chart</div>
+</div>
+<div class="sect2">
+<h3 id="_turn_unit_on">2.1. Turn unit on</h3>
+<div class="paragraph">
+<p>Press and hold the Black button on the left most side.
+When you see the <code>Power on</code> message, release the button</p>
+</div>
+<div class="paragraph">
+<p>There are two modes <code>Analog</code> and <code>Digital</code>, use the F3 button <code>Middle white button</code> to change.</p>
+</div>
+<div class="paragraph">
+<p>Meter will turn off after a few minutes of inactivity, this is normal.</p>
+</div>
+<div class="paragraph">
+<p>Manually turn it off, press <code>Menu</code> black button,
+then 2nd or 3rd white button to get to <code>Power off</code> option,
+hold the black button down while the count down time reaches zero,
+release the black button.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_is_switch_on_top">3. What is switch on top</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The switch on the top is <strong>Not</strong> the power switch,
+it is the signal attenuation switch, left is 0dB, right is 10dB</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="./images/anysecu_top.png" alt="Alt Tag">
+</div>
+<div class="title">Figure 3. Attenuation switch</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_operation">4. Operation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Turn the unit on and get close to transmitter within a few feet,
+turn meter to face the transmitter.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If the transmitters has a PL tone then the actual frequency may up to 600 mHZ different in either +/- direction.
+An example a transmitter at 440.600 mHZ may show up on meter a 440.000 mHZ.
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="./images/anysecu_f2.png" alt="Alt Tag">
+</div>
+<div class="title">Figure 4. F2 Amalog/Digit</div>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_document_history">2. Document History</h2>
+<h2 id="_references">5. References</h2>
+<div class="sectionbody">
+<div id="CTCSS" class="dlist">
+<dl>
+<dt class="hdlist1">CTCSS</dt>
+<dd>
+<p>In telecommunications, Continuous Tone-Coded Squelch System or CTCSS is one type of circuit that is used to reduce the annoyance of listening to other users on a shared two-way radio communications channel. (See squelch.)
+It is sometimes referred to as tone squelch. It does this by adding a low frequency audio tone to the voice.
+Where more than one group of users is on the same radio frequency (called co-channel users),
+CTCSS circuitry mutes those users who are using a different CTCSS tone or no CTCSS.
+It is sometimes referred to as a sub-channel, but this is a misnomer because no additional channels are created.
+All users with different CTCSS tones on the same channel are still transmitting on the identical radio frequency, and their transmissions interfere with each other; however; the interference is masked under most (but not all) conditions.
+The CTCSS feature also does not offer any security.</p>
+</dd>
+</dl>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_document_history">6. Document History</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 1. Document History</caption>
@@ -518,7 +634,7 @@ This feeble attempt is to put instructions for just the gear I use in one place.
 <div id="footer">
 <div id="footer-text">
 Version 2.1b<br>
-Last updated 2021-03-14 22:20:49 -0400
+Last updated 2021-03-14 23:16:08 -0400
 </div>
 </div>
 </body>

@@ -17,7 +17,7 @@ v2.1b, 03/14/2021: Doco Type
 :icons: font
 :docdir: ./documents
 :github: https://github.com/GeekMustHave/instructions
-:web-ste: https://OpenStuff/pwc-lms/com/doco/instructions
+:web-ste: https:pwc-lms.com/doco/instructions
 :linkattrs:
 :seclinks: asciidoctor readme.adoc
 :description: Metatag description \
@@ -40,7 +40,80 @@ This feeble attempt is to put instructions for just the gear I use in one place.
 
 To download a PDF version of this document use this link:./readme.pdf[link]
 
-poop
+== ANYSECU SF-401 Plus 
+
+.Surecomm ANYSECY SF-401 Plus
+image::anysecu_SF-401_Plus.png[Surecomm ANYSECY SF-401 Plus, alt='Freq counter', align='center']
+ 
+The manual can be viewed at this link::./documents/SureCom_Anysecu_SF-401Plus_FrequencyCounter_210314.pdf[Link]
+
+This is a frequency counter and <<CTCSS>> meter.  
+Used to determine the frequency and <<CTCSS>> code of a nearby transmitting device.
+
+<<CTCSS>> tones range from 67 to 257 Hz. The tones are usually referred to as sub-audible tones. 
+These tones allow a single frequency to be shared by multiple groups without them hearing the other groups conversations.
+The two groups can still interfere with each other without knowing it.
+
+.Tone and Channel chart
+image::anysec_tonechart.png[Tone and Channel chart, alt='Alt Tag', align='center']
+ 
+
+
+=== Turn unit on
+
+Press and hold the Black button on the left most side.
+When you see the `Power on` message, release the button
+
+There are two modes `Analog` and `Digital`, use the F3 button `Middle white button` to change.
+
+Meter will turn off after a few minutes of inactivity, this is normal.
+
+Manually turn it off, press `Menu` black button, 
+then 2nd or 3rd white button to get to `Power off` option, 
+hold the black button down while the count down time reaches zero,
+release the black button.
+
+== What is switch on top
+
+The switch on the top is **Not** the power switch,
+it is the signal attenuation switch, left is 0dB, right is 10dB
+
+.Attenuation switch
+image::anysecu_top.png[Attenuation switch, alt='Alt Tag', align='center']
+
+== Operation
+
+Turn the unit on and get close to transmitter within a few feet,
+turn meter to face the transmitter.
+
+NOTE: If the transmitters has a PL tone then the actual frequency may up to 600 mHZ different in either +/- direction.
+An example a transmitter at 440.600 mHZ may show up on meter a 440.000 mHZ.
+
+
+
+
+
+
+.F2 Amalog/Digit
+image::anysecu_f2.png[F2 Amalog/Digital, alt='Alt Tag', align='center']
+ 
+
+
+
+
+<<<<
+
+== References
+
+[[CTCSS]]
+CTCSS::
+In telecommunications, Continuous Tone-Coded Squelch System or CTCSS is one type of circuit that is used to reduce the annoyance of listening to other users on a shared two-way radio communications channel. (See squelch.) 
+It is sometimes referred to as tone squelch. It does this by adding a low frequency audio tone to the voice. 
+Where more than one group of users is on the same radio frequency (called co-channel users), 
+CTCSS circuitry mutes those users who are using a different CTCSS tone or no CTCSS. 
+It is sometimes referred to as a sub-channel, but this is a misnomer because no additional channels are created. 
+All users with different CTCSS tones on the same channel are still transmitting on the identical radio frequency, and their transmissions interfere with each other; however; the interference is masked under most (but not all) conditions. 
+The CTCSS feature also does not offer any security.
 
 <<<<
 == Document History
@@ -52,6 +125,9 @@ poop
 | 03/14/2021 | V2.1b | JHRS |  Initial version
 |===
 
+
+
+ 
 
 
 
