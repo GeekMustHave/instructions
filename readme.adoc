@@ -40,7 +40,7 @@ This feeble attempt is to put instructions for just the gear I use in one place.
 
 To download a PDF version of this document use this link:./readme.pdf[link]
 
-
+poop
 <<<<
 == Document History
 
