@@ -73,7 +73,7 @@ then 2nd or 3rd white button to get to `Power off` option,
 hold the black button down while the count down time reaches zero,
 release the black button.
 
-== What is switch on top
+=== What is switch on top
 
 The switch on the top is **Not** the power switch,
 it is the signal attenuation switch, left is 0dB, right is 10dB
@@ -81,7 +81,7 @@ it is the signal attenuation switch, left is 0dB, right is 10dB
 .Attenuation switch
 image::anysecu_top.png[Attenuation switch, alt='Alt Tag', align='center']
 
-== Operation
+=== Operation
 
 Turn the unit on and get close to transmitter within a few feet,
 turn meter to face the transmitter.
